@@ -44,7 +44,7 @@ except URLError as e:
   streamlit.error("Error: Connection refused")
 
 
-streamlit.header("The fruit load list contains:")
+streamlit.header("Pozdro:")
 
 def get_fruit_load_list():
   with my_cnx.coursor() as my_cur:
